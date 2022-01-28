@@ -1,8 +1,6 @@
 import React, { PureComponent } from 'react';
 import { NavLink } from 'react-router-dom';
 
-const groom = "Manoj"
-const bride = "Sonli"
 
 export class Nav extends PureComponent {
   render() {
@@ -10,7 +8,7 @@ export class Nav extends PureComponent {
       <div className='nav-bar'>
 
       <div className='couple-name'>
-        <h1>{groom} + {bride}</h1>
+        {/* <h1>{groom} + {bride}</h1> */}
       </div>
 
       <div className='nav-items'>
