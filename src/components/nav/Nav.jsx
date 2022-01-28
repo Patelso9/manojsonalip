@@ -10,15 +10,15 @@ export class Nav extends PureComponent {
       <div className='nav-bar'>
 
       <div className='couple-name'>
-        <h1>{groom} & {bride}</h1>
+        <h1>{groom} + {bride}</h1>
       </div>
 
       <div className='nav-items'>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/events">Wedding Details</NavLink>
+        {/* <NavLink to="/events">Wedding Details</NavLink>
         <NavLink to="/social">Pictures</NavLink>
         <NavLink to="/registry">Registry</NavLink>
-        <NavLink to="/about">About us</NavLink>
+        <NavLink to="/about">About us</NavLink> */}
      </div>
 
      </div>
