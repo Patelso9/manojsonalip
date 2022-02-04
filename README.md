@@ -1,6 +1,10 @@
-## manojsonalip
+# Man found his Sona
 
+## Description
+Dynamic wedding website
 
+## Notes
+* Using React-Router-Dom V6
 
 # Getting Started with Create React App
 
