@@ -1,20 +1,29 @@
-import { BrowserRouter as Route } from 'react-router-dom';
 import './App.css';
+// import React, { Component } from 'react';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
 import Nav from './components/Nav/Nav';
+import Events from './components/Pages/Events';
 import Home from './components/Pages/Home';
-
-
-
+import Pics from './components/Pages/Pics';
+import Registry from './components/Pages/Registry';
+import About from './components/Pages/About';
 
 
 function App() {
-  return (
-      <div className="App">
-      <Route exact path="/"> <Home /> </Route>
+    return (
 
-      </div>
-  );
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+
+);
+
+
+
 }
 
 export default App;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from '../Nav/Nav';
-import cover from '../img/prop_announcement_hor.JPG'
+import coverImg from '../img/prop_announcement_hor.JPG'
 import footerImg from '../img/prop_skyline_hor.jpg'
 
 var groom = "Manoj Padmanabhan";
@@ -14,7 +14,7 @@ export class Home extends Component {
 
       <Nav />
 
-      <img src={cover} alt="our faces proposal" style= {{ width: "100%" }} />
+      <img src={coverImg} alt="our faces proposal" style= {{ width: "100%" }} />
 
 
       <div className='welcome-details'>
