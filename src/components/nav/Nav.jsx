@@ -15,9 +15,9 @@ export class Nav extends Component {
       <div className='nav-items'>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/events">Wedding Details</NavLink>
+        <NavLink to="/about">About us</NavLink>
         <NavLink to="/pics">Pictures</NavLink>
         <NavLink to="/registry">Registry</NavLink>
-        <NavLink to="/about">About us</NavLink>
      </div>
 
      </div>
